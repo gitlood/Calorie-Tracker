@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class GoalLevelViewModel @Inject constructor(
+class GoalTypeViewModel @Inject constructor(
     private val preferences: Preferences
 ) : ViewModel() {
 
